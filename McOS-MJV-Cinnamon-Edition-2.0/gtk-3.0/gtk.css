@@ -177,7 +177,6 @@ iconview text:selected,
 .view:selected {
 
   color: #ffffff;
-  text-shadow:  0px  1px alpha(#202020, 0.3);
   text-shadow: none;
   background-color: #4095ff;
   border-radius: 2px; }
@@ -373,11 +372,6 @@ flowbox flowboxchild {
 flowbox flowboxchild:selected{
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   text-shadow: none;
   background-color: #4095ff;}
 
@@ -484,11 +478,6 @@ treeview.view.expander:selected {
 treeview.view.expander:selected:hover {
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   text-shadow: none;
 }
 
@@ -538,7 +527,6 @@ treeview.view header button {
   padding: 3px 6px;
   font-weight: 500;
   font-size: 90%;
-  color: #202020;
   background-color: #f6f6f6;
   background-image: none;
   border-style: none solid none none;
@@ -582,11 +570,6 @@ treeview.view button.dnd:selected{
   padding: 0 6px;
   transition: none;
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   text-shadow: none;
   background-color: #4095ff;
   border-radius: 0;
@@ -624,11 +607,6 @@ iconview.content-view.check:checked:not(list),
 label:selected{
 
   color: #bcbcbc;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); 
   text-shadow: none;
 }
 
@@ -639,11 +617,6 @@ label:disabled:selected{
 label selection {
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   text-shadow: none;
   background-color: #4095ff; }
 
@@ -884,11 +857,6 @@ entry.warning,
 entry.warning:focus {
 
   color: white;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   text-shadow: none;
   border-color: #f14736;
   background-color: transparent;
@@ -897,11 +865,6 @@ entry.warning:focus {
 entry.warning image {
 
   color: white;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); 
   text-shadow: none;
 }
 
@@ -917,11 +880,6 @@ entry.error selection:focus,
 entry.error selection{
 
   color: white;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
   border-color: #f14736;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#f12712,#f14736); }
@@ -951,12 +909,6 @@ entry selection,
 entry selection:focus{
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  text-shadow: none;
   background-color: #4095ff; }
 
 entry selection:disabled{
@@ -982,12 +934,6 @@ entry selection:disabled{
 osd entry:focus {
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  text-shadow: none;
   border-color: rgba(198, 205, 229, 0.25);
   background-color: #4095ff; }
 
@@ -1021,7 +967,7 @@ button {
   border: 1px solid;
   border-radius: 4.33px;
   padding: 0px 4px 0px 4px;
-  color: #202020;
+  color: #606060;
   border-color:#d9d9d9 #cdcdcd #bdbdbd #cdcdcd;
   background-color: transparent;
   background-image: image(#ffffff)}
@@ -1030,7 +976,7 @@ button.flat:hover,
 button.sidebar-button:hover,
 button:hover {
  
-  color: #202020;
+  color: #606060;
   text-shadow: none;
   border-color:#d9d9d9 #cdcdcd #bdbdbd #cdcdcd;
   background-color: transparent;
@@ -1041,13 +987,6 @@ button:active{
 
   font-weight: normal;
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
- 
-  text-shadow: none;
   background-color: transparent;
   background-image:linear-gradient(to bottom,#6ab4fd,#0a7fff);
   border-color: #699bcc #4179c6 #1f5bbd #4179c6;}
@@ -1057,12 +996,6 @@ button:checked:hover{
 
   font-weight: normal;
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  text-shadow: none;
   border-color: #477bc7 #2e5eb2 #163e9d #2e5eb2;
   background-color: transparent;
   background-image:linear-gradient(to bottom,#4d98fe,#0765e3);}
@@ -1088,7 +1021,6 @@ button:disabled:active{
 button.flat{
 
   border-color: transparent;
-  color: #202020;
   background-color: transparent;
   background-image: none; }
 
@@ -1109,12 +1041,6 @@ button:checked:not(:disabled) label:disabled,
 button:active:not(:disabled) label:disabled{
 
   color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  text-shadow: none;
   border-color: #646772;
   background-color: transparent;
   background-image: image(#646772); 
@@ -1127,13 +1053,7 @@ button:disabled:active label,
 button:disabled label {
 
   text-shadow: none;
-  color: rgba(37,37,37, 0.55);
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-   text-shadow: none; }
+  color: rgba(37,37,37, 0.55); }
 
 button:hover:hover label{
 
@@ -1143,15 +1063,7 @@ button:hover:hover label{
 
 button:hover label,
 button:checked label{
- color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  text-shadow: none; }
-
-
+  color: #ffffff; }
 
 button:hover:active label{
 
@@ -1562,8 +1474,7 @@ button.suggested-action.flat{
 
   border-color: transparent;
   background-color: transparent;
-  background-image: none;
-  color: #202020; }
+  background-image: none; }
 
 button.suggested-action:hover {
 
@@ -1638,8 +1549,7 @@ button.suggested-action.sidebar-button {
 
   border-color: transparent;
   background-color: transparent;
-  background-image: none;
-  color: #202020; }
+  background-image: none; }
 
 button.suggested-action.sidebar-button:disabled {
 
@@ -2059,7 +1969,6 @@ toolbar.bottom-toolbar button{
 
 .primary-toolbar:not(.libreoffice-toolbar) {
 
-  color: #252525;
   background-color: transparent; /*rgba(241,241,241,0.98); */
   background-image: linear-gradient(to bottom, #deddde, #d8d7d8);
   box-shadow: none;
@@ -3989,7 +3898,6 @@ spinbutton.vertical button:only-child {
 headerbar entry:focus,
 headerbar entry {
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4003,7 +3911,6 @@ headerbar entry {
 
 .primary-toolbar entry{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4139,7 +4046,6 @@ headerbar entry.error selection:focus {
 
 headerbar button {
   
-  color:#252525;
   text-shadow: none;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
@@ -4156,7 +4062,6 @@ headerbar button {
 
 .primary-toolbar button{
 
-  color:#252525;
   text-shadow: none;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
@@ -4244,7 +4149,6 @@ headerbar button:disabled:active{
   
 headerbar button.text-button {
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4258,7 +4162,6 @@ headerbar button.text-button {
 
 .primary-toolbar button.text-button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4300,7 +4203,6 @@ headerbar button.text-button:active{
 
 headerbar button.text-button.image-button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4314,7 +4216,6 @@ headerbar button.text-button.image-button{
 
 .primary-toolbar button.text-button.image-button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4356,7 +4257,6 @@ headerbar button.text-button.image-button:active{
 
 .primary-toolbar button.image-button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4372,7 +4272,6 @@ headerbar button.text-button.image-button:active{
 
 headerbar button.image-button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4437,8 +4336,7 @@ headerbar button.suggested-action.flat{
 
   border-color: transparent;
   background-color: transparent;
-  background-image: none;
-  color: #202020; }
+  background-image: none; }
   
 headerbar button.suggested-action:checked,  
 headerbar button.suggested-action:active,
@@ -4554,7 +4452,6 @@ headerbar button.destructive-action.flat:disabled label{
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button {
 
-  color: #252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4846,7 +4743,6 @@ headerbar .linked:not(.vertical):not(.path-bar) > entry.error:focus:not(:only-ch
 .primary-toolbar .linked:not(.vertical):not(path-bar) > button,
 headerbar .linked:not(.vertical):not(.path-bar) > button{
 
-  color:#252525;
   background-color: transparent;
   background-image: linear-gradient(180deg,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -4989,7 +4885,6 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:acti
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button{
 
   border-radius: 0px;
-  color: #252525;
   background-color: transparent;
   background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
   min-height: 22px;
@@ -5732,7 +5627,6 @@ statusbar button:active:focus,
 statusbar button:checked,
 statusbar button:checked:focus{
 
-  color: #252525;
   text-shadow: 0 1px alpha(#ffffff, 0.35);
   text-shadow: none;
   border: none;
@@ -5750,7 +5644,6 @@ statusbar button:backdrop:active:focus,
 statusbar button:backdrop:checked,
 statusbar button:backdrop:checked:focus{ 
 
-  color: #252525;
   text-shadow: 0 1px alpha(#ffffff, 0.35);
   text-shadow: none;
   border: none;
